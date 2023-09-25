@@ -1,0 +1,56 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int x = 6;
+int y = 2;
+cout << "PENINGKATAN" << endl;
+x += y;
+//nilai x = 8;
+cout << x << endl;
+x -=y;
+//nilai x = 8-2 = 6;
+cout << x << endl;
+x /= y;
+//nilai x = 6 / 2 = 3;
+cout << x << endl;
+x %= y;
+//nilai x = 3 % 2 = 1;
+cout << x << endl;
+x *=y;
+//nilai x = 1 * 2 = 2;
+cout << x << endl;
+x <<=y;
+cout << x << endl;
+x >>=y;
+cout << x << endl;
+x &=y;
+cout << x << endl;
+x ^=y;
+cout << x<< endl; 
+x |=y;
+cout << x << endl << endl;
+//nilai x = 2; 
+//nilai y = 2;
+cout << " PENJABARAN " << endl;
+x = x - y;
+cout << x << endl;
+x = x + y;
+cout << x << endl;
+x = x * y;
+cout << x << endl;
+x = x / y;
+cout << x << endl;
+x = x % y;
+cout << x << endl;
+x = x & y;
+cout << x << endl;
+x = x | y;
+cout << x << endl; 
+x = x ^ y;
+cout << x << endl;
+x = x << y;
+cout << x << endl;
+x = x >> y;
+cout << x;
+}
